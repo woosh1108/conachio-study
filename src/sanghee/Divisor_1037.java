@@ -11,7 +11,6 @@ public class Divisor_1037 {
         if(N<1 | N>50){
             return;
         }
-        sc.nextLine();
 
         int[] M = new int[N];
         for(int i=0; i<N; i++){
