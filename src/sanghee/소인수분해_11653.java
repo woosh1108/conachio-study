@@ -10,7 +10,7 @@ public class 소인수분해_11653 {
 
         if(N!=1){ // N이 1이 아니면 출력이 되지 않게
             List<Integer> list = new ArrayList<>();
-            for(int i = 2; i<=Math.sqrt(N); i++) { // 제곱근 알고리즘
+            for(int i = 2; i<=Math.sqrt(N); i++) { // 제곱근 알고리즘 : 2부터 제곱근까지의 범위에서 소수 찾아 숫자 나누기
                 if (N % i == 0) {
                     list.add(i);
                     N = N/i;
