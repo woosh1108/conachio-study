@@ -3,7 +3,6 @@ package sanghee;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class 크로아티아알파벳_2941 {
     public static void main(String[] args) throws IOException {
