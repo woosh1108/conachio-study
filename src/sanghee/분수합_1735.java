@@ -19,6 +19,7 @@ public class 분수합_1735 {
         denominator = denominator/a;
         numerator = numerator/a;
 
+        // 출력
         System.out.println(numerator+" "+denominator);
 
     }
