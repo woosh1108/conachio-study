@@ -8,6 +8,8 @@ public class 너의평점은_25206 {
 
         String[][] score = new String[3][20];
 
+        
+        
         double credit = 0;
         double sum = 0;
 
