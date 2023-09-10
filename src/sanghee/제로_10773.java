@@ -10,7 +10,7 @@ public class 제로_10773 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int K = Integer.parseInt(br.readLine()); // 입력받을 수의 개수
-        Stack<Integer> stack = new Stack<Integer>(); // 입력받은 수를 저장할 스택
+        Stack<Integer> stack = new Stack<>(); // 입력받은 수를 저장할 스택
 
         for(int i=0; i<K; i++){
             int x = Integer.parseInt(br.readLine());
