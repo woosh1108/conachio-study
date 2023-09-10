@@ -14,13 +14,12 @@ public class 크로아티아알파벳_2941 {
         // 배열로 크로아티아 알파벳 넣어주기
         String[] target = {"c=", "c-","dz=","d-","lj","nj","s=","z="};
 
-        // 반복문을 사용해 크로아티아 알파벳이 몇 개 들어있는지 세기
+        // 반복문을 사용해 크로아티아 알파벳을 바꿔주기
         for(int i=0; i<target.length; i++){
-            word = word.replace(target[i], "1"); // 크로아티아 알파벳을 바꿔주기
+            word = word.replace(target[i], "1");
         }
 
         // 출력
         System.out.println(word.length());
-
     }
 }
