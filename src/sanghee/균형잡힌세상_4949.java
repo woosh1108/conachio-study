@@ -9,7 +9,6 @@ import java.util.StringTokenizer;
 public class 균형잡힌세상_4949 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
 
         Stack<String> write = new Stack<>(); // 문장을 입력받을 공간
 
