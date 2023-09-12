@@ -8,8 +8,7 @@ import java.util.*;
 public class 큐2_18258 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        // 명령어를 입력받을 개수
+// 명령어를 입력받을 개수
         int N = Integer.parseInt(br.readLine());
 
         Deque<String> queue = new ArrayDeque<>(); // 숫자를 저장할 Queue
