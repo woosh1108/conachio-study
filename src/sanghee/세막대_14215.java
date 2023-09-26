@@ -23,6 +23,5 @@ public class 세막대_14215 {
             int a = length[0]+length[1];
             System.out.println(a+a-1);
         }
-
     }
 }
