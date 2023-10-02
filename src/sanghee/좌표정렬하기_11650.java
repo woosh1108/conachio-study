@@ -33,6 +33,5 @@ public class 좌표정렬하기_11650 {
         for(int i=0; i<N; i++){
             System.out.println(xy[i][0]+" "+xy[i][1]);
         }
-
     }
 }
