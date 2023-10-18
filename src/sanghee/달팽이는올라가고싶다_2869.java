@@ -11,17 +11,17 @@ public class 달팽이는올라가고싶다_2869 {
         String input = br.readLine();
         String[] ABV = input.split(" ");
 
-        int days = 0;
+        int day = 0;
 
         int v = Integer.parseInt(ABV[2])-Integer.parseInt(ABV[0]);
         int c = Integer.parseInt(ABV[0])-Integer.parseInt(ABV[1]);
 
         if(v%c==0){
-            days = v/c+1;
+            day = v/c+1;
         } else{
-            days = v/c+2;
+            day = v/c+2;
         }
 
-        System.out.println(days);
+        System.out.println(day);
     }
 }
