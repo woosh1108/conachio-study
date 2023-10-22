@@ -1,11 +1,10 @@
 package sanghee;
 
-import java.io.IOException;
 import java.util.HashSet;
 import java.util.Scanner;
 
 public class 대칭차집합_1269 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int aLength = sc.nextInt(); // 집합 A의 원소의 개수
